@@ -1,0 +1,53 @@
+.hero{
+    height: 100vh;
+    max-height: 900px;
+    align-items: center;
+}
+.hero.two-side-container .image {
+    position: relative;
+    height: 100%;
+}
+.hero.two-side-container .image .decor {
+    padding: 10px;
+    border-radius: 100%;
+    background-color: var(--color-white);
+    max-width: 110px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 25%;
+    box-shadow: 0 10px 15px -3px rgb(166, 124, 82, .5), 0 4px 6px -4px rgb(166, 124, 82, .5);
+    transition: all .5s;
+    animation: bounce 2s infinite;
+}
+.hero.two-side-container .image .decor img {
+    position: relative;
+    width: 100%;
+    transition: all .5s;
+}
+.hero.two-side-container .image .decor.decor-2:hover {
+    filter: blur(0);
+}
+.hero.two-side-container .image .decor.decor-2{
+    top: 10%;
+    right: 20px;
+    animation-delay: 250ms;
+    max-width: 100px;
+    filter: blur(1px);
+    z-index: 2;
+}
+.hero.two-side-container .image .decor.decor-3{
+    top: 40%;
+    right: 50px;
+    animation-delay: 500ms;
+    max-width: 130px;
+}
+.hero.two-side-container .image img {
+    width: 100%;
+}
+.hero.two-side-container .image .hero-image{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    object-fit: contain;
+    z-index: 1;
+}
