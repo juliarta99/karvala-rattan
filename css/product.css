@@ -1,0 +1,7 @@
+.category{
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: var(--color-accent);
+    width: max-content;
+    color: var(--color-white);
+}

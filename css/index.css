@@ -61,7 +61,6 @@
     text-align: center; 
 }
 
-
 .process-line {
     position: absolute;
     top: 0;
@@ -256,17 +255,6 @@
     }
     .testimoni-container{
         gap: 80px 40px;
-    }
-    .cta-image{
-        display: none;
-    }
-    .cta-container .two-side-container .content{
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    .cta-container .two-side-container div button{
-        width: 100%;
     }
 }
 @media screen and (max-width : 769px) {
